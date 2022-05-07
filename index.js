@@ -135,6 +135,8 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
         });
+
+        document.querySelector('.message').classList.add('hide');
     }
 
     tiles.forEach( (tile, index) => {
