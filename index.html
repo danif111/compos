@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+       
+        <section class ="display" >   
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="message">
+            <h1 class="winner hide">Tic Tac Toe</h1>
+        </section>  
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="dashboard">
+            <div class="clock">
+                <span id="min">02</span>:<span id="sec">59</span>
+            </div>
+            <div id="score">
+                <div>
+                    <span>player X: </span><span  id="player1">0</span>
+                </div>
+                <div>
+                    <span>player 0: </span><span  id="player2">0</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
